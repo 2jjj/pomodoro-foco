@@ -1,0 +1,89 @@
+.shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 32px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.brand {
+  font-weight: 700;
+}
+
+.sessions {
+  opacity: 0.6;
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+}
+
+.tabs button {
+  background: transparent;
+  border: 1px solid #2a2f37;
+  color: inherit;
+  padding: 6px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.tabs button.active {
+  background: #f2f4f8;
+  color: #0b0d10;
+  border-color: #f2f4f8;
+}
+
+.clock {
+  font-size: clamp(96px, 22vw, 168px);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.controls {
+  display: flex;
+  gap: 12px;
+}
+
+.controls button {
+  background: transparent;
+  border: 1px solid #2a2f37;
+  color: inherit;
+  padding: 12px 28px;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.controls button.primary {
+  background: #f0803c;
+  border-color: #f0803c;
+  color: #140b05;
+  font-weight: 600;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.4;
+}
